@@ -10,7 +10,7 @@ $(document).ready(function() {
     var quoteAuthor = $(".pull-left").text().trim();
 
     $(".twitter-share-button").attr('data-text', quoteText + " - " + quoteAuthor);
-    $.getScript("http://platform.twitter.com/widgets.js");
+    $.getScript("https://platform.twitter.com/widgets.js");
 })
 
 function getQuote() {
