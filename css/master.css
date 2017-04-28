@@ -42,5 +42,6 @@ blockquote{
 
 button#getQuote {
     height: 26px;
+    margin-top: 10px;
     margin-right: 5px;
 }
